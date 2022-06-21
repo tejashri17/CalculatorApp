@@ -23,10 +23,12 @@ public class Calculator {
 		return result;
 	}
 	//Method for Percentage
-	public float percentage(int num1,int num2){
-		result = (num1/num2)*100;
+	public float percentage(int num1){
+	System.out.println("Percentage function is added");
+		result = num1/100;
 		return result;
 	}
+
 
 	
 }
